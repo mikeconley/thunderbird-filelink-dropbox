@@ -1,6 +1,0 @@
-content dropbox jar:chrome/thunderbird-filelink-dropbox.jar!/content/chrome/
-skin dropbox skin/
-locale dropbox en-US jar:chrome/thunderbird-filelink-dropbox.jar!/locale/en-US/
-component {2fd8a64a-a496-4cf4-9d6b-d3f9800c6322} components/nsDropbox.js
-contract @mozilla.org/mail/dropbox;1 {2fd8a64a-a496-4cf4-9d6b-d3f9800c6322}
-category cloud-files Dropbox @mozilla.org/mail/dropbox;1
