@@ -368,8 +368,6 @@ nsDropbox.prototype = {
    * @param aError the error to get the URL for
    */
   providerUrlForError: function nsDropbox_providerUrlForError(aError) {
-    if (aError == Ci.nsIMsgCloudFileProvider.uploadWouldExceedQuota)
-      return "https://www.dropbox.com/plans";
     return "";
   },
 
