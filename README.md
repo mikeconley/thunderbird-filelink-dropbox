@@ -1,7 +1,8 @@
 # Dropbox support for Thunderbird's Filelink feature
 
-This add-on adds support for Dropbox accounts when using [Thunderbird's Filelink
-feature.](https://support.mozillamessaging.com/kb/filelink-large-attachments)
+This add-on is no longer maintained by me. I will not be taking pull requests nor updating the add-on page.
+
+I welcome somebody, anybody, to fork the source, fix it up and post a new version of the add-on to AMO.
 
 [Developer documentation for Filelink can be found here.](https://developer.mozilla.org/en/Thunderbird/Filelink_Providers)
 
