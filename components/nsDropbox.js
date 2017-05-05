@@ -568,6 +568,7 @@ nsDropboxFileUploader.prototype = {
         this.log.info("success putting file " + aResponseText);
         let putInfo = JSON.parse(aResponseText);
         this.dropbox._uploadInfo[this.file.path] = putInfo;
+	this.file.leafName = putInfo['path'].substr(1);
         this._getShareUrl(this.file, this.callback);
       }.bind(this),
       function(aException, aResponseText, aRequest) {
